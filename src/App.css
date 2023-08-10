@@ -1,0 +1,20 @@
+/* FormI.css */
+.form-container {
+    width: 50%; /* Sesuaikan lebar sesuai keinginan */
+    margin: 0 auto; /* Mengatur elemen ke tengah */
+  }
+
+  .custom-card {
+    height: 100%; /* Menetapkan tinggi 100% */
+    display: flex; /* Menggunakan display flex untuk mengatur tinggi sama rata */
+    flex-direction: column; /* Menata konten dalam kolom */
+  }
+  
+  .custom-card .card {
+    flex-grow: 1; /* Membuat card mengisi ruang yang tersedia secara merata */
+  }
+  
+  .custom-card .img{
+    height: 150px;
+  }
+  
